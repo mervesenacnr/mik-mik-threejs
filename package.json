@@ -1,0 +1,31 @@
+{
+  "name": "mik-mik-threejs",
+  "version": "1.0.0",
+  "description": "Three.js edition of the Mik Mik mouse-chef restaurant survival roguelike",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5178 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5178 --strictPort",
+    "test": "node --test tests/*.test.js",
+    "format": "prettier --write src tests scripts index.html",
+    "format:check": "prettier --check src tests scripts index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "three": "^0.186.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.6",
+    "vite": "^8.3.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
